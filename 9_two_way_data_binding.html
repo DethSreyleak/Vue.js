@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two way data binding</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <select v-model="option" multiple>
+            <option value="Audi">Audi</option>
+            <option value="BMW">BMW</option>
+            <option value="Citroen">Citroen</option>
+            <option value="Ford">Ford</option>
+            <option value="Honda">Honda</option>
+            <option value="Jaguar">Jaguar</option>
+            <option value="Land Rover">Land Rover</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Mini">Mini</option>
+            <option value="Nissan">Nissan</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Volvo">Volvo</option>
+          </select>
+          <h1> {{option}} </h1>
+    </div>
+    <script src="9_two_way_data_binding.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse over style bindinng</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    
+</head>
+<body style="display: flex; justify-content:center; align-items:center">
+    <div id="app" class="h-sreen" v-bind:style="{backgroundColor:bgColor}">
+        {{bgColor}}
+        <input type="color" v-model="bgColor" style="width: 100px; height:40px;">
+    </div>
+</body>
+<script src="13_mouse_over_style_binding.js"></script>
+</html>

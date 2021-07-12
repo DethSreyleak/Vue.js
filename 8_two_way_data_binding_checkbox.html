@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Way data binding Checkbox</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <H1>Food Menu in Resterant</H1>
+        <input type="checkbox" value="cary" v-model="menus" id="cary">
+        <label for="cary">Cary</label><br>
+        <input type="checkbox" value="soup" v-model="menus" id="soup">
+        <label for="soup">Soup</label><br>
+        <input type="checkbox" value="ahmok" v-model="menus" id="ahmok">
+        <label for="ahmok">Ahmok</label><br><br>
+        <h2> {{menus}} </h2>
+    </div>
+</body>
+<script src="8_two_way_data_binding_checkbox.js"></script>
+</html>
